@@ -1,0 +1,17 @@
+{
+    "propertyMapping":{
+        "account": {
+            "name": "legalEntityName"
+        },
+        "contact": {
+            "firstname": "firstName",
+            "lastname": "lastName"
+        }
+    },
+    "referenceDataMapping":{
+        "EntityType":{
+            "account": "Company",
+            "contact": "Individual"
+        }
+    }
+}

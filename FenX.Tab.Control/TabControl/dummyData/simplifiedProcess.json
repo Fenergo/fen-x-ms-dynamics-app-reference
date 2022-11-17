@@ -1,0 +1,26 @@
+{
+    "name": "Data Enrichment",
+    "tasks": [
+        {
+            "name": "KYC Level Assessment",
+            "status": "Complete",
+            "taskType": "PolicyTask",
+            "teamName": "Onboarding",
+            "order": 0
+        },
+        {
+            "name": "Calculate KYC Level",
+            "status": "In Progress",
+            "taskType": "ServiceTask",
+            "teamName": null,
+            "order": 1
+        },
+        {
+            "name": "Upload Documents",
+            "status": "Not Started",
+            "taskType": "PolicyTask",
+            "teamName": "Onboarding",
+            "order": 2
+        }
+    ]
+}

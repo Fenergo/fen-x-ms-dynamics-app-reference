@@ -1,0 +1,41 @@
+{
+    "appName":  "",
+    "apiRoot":  "https://api.fenergox.com/",
+    "prePopulateTemplateData":  false,
+    "prePopulateConfigFileName":  "preLoadTemplateSettings.json",
+    "fenxTenantId":  "",
+    "journeyQueryApiRoot":  "/journeyquery",
+    "journeyCommandApiRoot":  "/journeycommand",
+    "journeyLogicEngine":  "/journeylogicengine",
+    "entityDataQueryApiRoot":  "/entitydataquery",
+    "entityDataCommandApiRoot":  "/entitydatacommand",
+    "associationCommandApiRoot":  "/associationcommand",
+    "associationQueryApiRoot":  "/associationquery",
+    "lookupQueryApiRoot":  "/lookupquery",
+    "lookupCommandApiRoot":  "/lookupcommand",
+    "policyQueryApiRoot":  "/policyquery",
+    "policyLogicEngineApiRoot":  "/policylogicengine",
+    "policyCommandApiRoot":  "/policycommand",
+    "documentManagmentQueryApiRoot":  "/documentmanagementquery",
+    "documentManagmentCommandApiRoot":  "/documentmanagementcommand",
+    "documentTypeLookupId":  "b0194fbb-4257-4eb3-aa3e-931d5e22c41e",
+    "screeningQueryApiRoot":  "/screeningquery",
+    "screeningCommandApiRoot":  "/screeningcommand",
+    "tenantQueryApiRoot":  "/tenantquery",
+    "journey":  {
+                    "enablePoll":  true,
+                    "pollInterval":  2000
+                },
+    "separator":  "|",
+    "useOAuthAuthorization": false,
+    "localTesting": {
+        "identityProviderToken": "https://identity.fenergox.com/connect/token",
+        "env": "prod",
+        "entityId": "f0e868f2-698d-4f3b-9e4f-1c29aeed223c",
+        "azure" : {
+            "clientid": "",
+            "tenantid": "",
+            "redirect": ""
+        }
+    }
+}

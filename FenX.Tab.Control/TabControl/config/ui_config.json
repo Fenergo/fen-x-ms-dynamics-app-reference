@@ -1,0 +1,8 @@
+{
+    "rootWidth": "100%",
+    "rootHeight": "65vh",
+    "firstColumnWidth": "30%",
+    "secondColumnWidth": "100%",
+    "firstColumnCollapsedWidth": "auto",
+    "stackChildrenGap": 14
+}
